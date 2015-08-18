@@ -1,0 +1,4 @@
+grant codeBase "file:/home/ankit07/workspace/Projects/RMI/" {
+    permission java.security.AllPermission;
+    permission java.util.PropertyPermission "*", "read,write";
+};
